@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "A11y Showcase",
+    "slug": "a11y-showcase",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#111827"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.demo.a11yshowcase"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#7C3AED"
+      },
+      "package": "com.demo.a11yshowcase"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
